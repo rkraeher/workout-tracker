@@ -9,30 +9,8 @@ const workoutSchema = new Schema(
         },
         exercises: [
             {
-                type: {
-                    type: String,
-                    required: "Enter an Exercise Type"
-                },
-                name: {
-                    type: String,
-                    required: "Enter Exercise Name"
-                },
-                duration: {
-                    type: Number,
-                    //TODO: Add in some $gte 0 validator. 
-                },
-                weight: {
-                    type: Number,
-                },
-                reps: {
-                    type: Number,
-                },
-                sets: {
-                    type: Number,
-                },
-                distance: {
-                    type: Number,
-                },
+                type: Schema.Types.ObjectId,
+                ref: "Exercise"
             }
         ]
     });
