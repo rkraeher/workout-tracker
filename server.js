@@ -13,7 +13,7 @@ app.use(express.static("public"));
 
 //HTML & API ROUTES
 app.use(require("./routes/html-routes.js"));
-app.use(require("./routes/api-route.js"));
+app.use(require("./routes/api-routes.js"));
 
 //DB CONNECTION
 mongoose.connect("mongodb://localhost:27017/workout", {
