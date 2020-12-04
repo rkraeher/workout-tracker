@@ -19,7 +19,6 @@ const workoutSchema = new Schema(
                 },
                 duration: {
                     type: Number,
-                    //TODO: Add in some $gte 0 validator. 
                 },
                 weight: {
                     type: Number,
