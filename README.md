@@ -1,57 +1,40 @@
-# Unit 17 Nosql Homework: Workout Tracker
+# Workout Tracker
 
-For this assignment, you'll create a workout tracker. You have already been provided with the front end code in the `Develop` folder. This assignment will require you to create Mongo database with a Mongoose schema and handle routes with Express.
+## Description
+    Web app to view, create and track daily workouts. Keep track of workout types like resistance and cardio as well as corresponding data about those exercises, like weight, sets, reps, duration, and distance. The app will also visualize your exercise stats.
+    
+## Table of Contents 
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [Technologies](#technologies)
+4. [Demo](#demo)
+5. [License](#license)
+6. [Contributing](#contributing)
+7. [Tests](#tests)
+8. [Questions](#questions)
+    
+## Installation
+If you want to use this application you'll need to npm install the dependences and create+connect your own third party database service, such as MongoDB Atlas, and copy/past the db URI string into your environment variables configuration on your site deployment settings. 
 
-## User Story
+## Usage
+To use the app currently associated with this repo, visit the site at the following url: https://workout-tracker-20-v1.herokuapp.com/
 
-* As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
+## Technologies
+HTML, CSS, Semantic UI, Express.js, MongoDB Atlas, Mongoose.
 
-## Business Context
+## Demo
+<img src="public/assets/images/demo.gif" alt="demo video">    
 
-A consumer will reach their fitness goals more quickly when they track their workout progress.
-
-## Acceptance Criteria
-
-When the user loads the page, they should be given the option to create a new workout or continue with their last workout.
-
-The user should be able to:
-
-  * Add exercises to a previous workout plan.
-
-  * Add new exercises to a new workout plan.
-
-  * View the combined weight of multiple exercises on the `stats` page.
-
-To deploy an application with a MongoDB database to Heroku, you'll need to set up a MongoDB Atlas account and connect a database from there to your application. Be sure to use the following guides for support:
-
-  * [Set Up MongoDB Atlas](../04-Important/MongoAtlas-Setup.md)
-
-  * [Deploy with Heroku and MongoDB Atlas](../04-Important/MongoAtlas-Deploy.md)
-
-## Commit Early and Often
-
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for the following two reasons:
-
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills.
-
-2. Your commit history allows you to revert your codebase in the event that you need to return to a previous state.
-
-Follow these guidelines for committing:
-
-* Make single-purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits.
-
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history.
-
-* Don't commit half-done work, for the sake of your collaborators (and your future self!).
-
-* Test your application before you commit to ensure functionality at every step in the development process.
-
-We want you to have well over 200 commits by graduation, so commit early and often!
-
-## Submission on BCS
-
-You are required to submit the following:
-
-* The URL to the deployed application
-
-* The URL to the GitHub repository
+## License 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
+Copyright (c) 2020 Rudi Kraeher
+    
+## Contributing
+If you'd like to contribute please send me an email.
+    
+## Tests
+I have no testing guidelines at this time.
+    
+## Questions
+If you have any questions about the repo you can email me at rudikraeher@gmail.com.  
+Visit my [GitHub](https://github.com/rkraeher) to see more of my work.
