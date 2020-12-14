@@ -14,7 +14,7 @@
 8. [Questions](#questions)
     
 ## Installation
-If you want to use this application you'll need to npm install the dependences and create+connect your own third party database service, such as MongoDB Atlas, and copy/past the db URI string into your environment variables configuration on your site deployment settings. 
+If you want to use this application you'll need to npm install the dependences and create+connect your own third party database service, such as MongoDB Atlas, and copy/paste the db URI string into your environment variables configuration on your site deployment settings. 
 
 ## Usage
 To use the app currently associated with this repo, visit the site at the following url: https://workout-tracker-20-v1.herokuapp.com/
